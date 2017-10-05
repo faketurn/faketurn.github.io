@@ -5,6 +5,7 @@ body {
 	max-width: 55rem;
 }
 h1 {
+	margin: inherit 0 2rem;
 	font-size: 150%;
 }
 time {
