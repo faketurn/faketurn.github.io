@@ -1,9 +1,9 @@
 body {
 	margin: auto;
+	padding: 0 1rem;
 	font-size: 90%;
 	font-family: "メイリオ";
 	max-width: 55rem;
-	padding: 0 1rem;
 }
 h1 {
 	font-size: 150%;
