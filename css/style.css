@@ -1,14 +1,27 @@
 body {
 	margin: 3rem auto auto;
 	padding: 0 1rem;
-	font-size: 90%;
 	font-family: "メイリオ";
 	max-width: 55rem;
 }
 h1 {
 	font-size: 150%;
 }
-h2 {
+time {
 	font-size: 80%;
-	font-weight: normal;
+	color: #666;
+}
+h2 {
+	font-size: 100%;
+	font-weight: bold;
+}
+a:link {
+	color: royalblue;
+}
+a:visited {
+	color: orangered;
+}
+a:hover,
+a:active {
+	color: royalblue;
 }
