@@ -3,6 +3,7 @@ body {
 	padding: 0 1rem;
 	font-family: "メイリオ";
 	max-width: 55rem;
+	line-height: 2;
 }
 h1 {
 	margin: auto 0 2rem;
