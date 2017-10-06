@@ -1,9 +1,10 @@
 body {
-	margin: 3rem auto;
+	margin: 0 auto;
 	padding: 0 1rem;
 	font-family: "メイリオ";
 	max-width: 55rem;
 	line-height: 2;
+	background-color: #f1f1f1;
 }
 
 time {
@@ -38,6 +39,10 @@ a:active {
 /*
 Header contents
 */
+header {
+	background-color: #fff;
+	padding: 3rem 2rem 0;
+}
 .head_nav {
 	margin: auto 0 2rem;
 	padding: 0;
@@ -80,6 +85,8 @@ Article contents
 */
 article {
 	margin-bottom: 4rem;
+	padding: 2rem;
+	background-color: #fff;
 }
 article a {
 	text-decoration: none;
@@ -101,6 +108,8 @@ Footer contents
 */
 footer {
 	font-size: .8rem;
+	background-color: #fff;
+	padding: 3rem 2rem;
 }
 footer a {
 	font-size: 1rem;
