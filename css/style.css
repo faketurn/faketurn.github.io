@@ -44,7 +44,6 @@ Header contents
 	display: flex;
 	list-style: none;
 	font-size: .8rem;
-	color: #666;
 }
 .head_nav li:first-child {
 	margin-right: auto;
@@ -69,6 +68,12 @@ h1 {
 	margin-right: 3px;
 	width: 16px;
 	vertical-align: middle;
+}
+.head_nav li a {
+	opacity: .8;
+}
+.head_nav li h1 a {
+	opacity: 1;
 }
 /*
 Article contents
