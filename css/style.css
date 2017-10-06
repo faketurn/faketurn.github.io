@@ -5,10 +5,7 @@ body {
 	max-width: 55rem;
 	line-height: 2;
 }
-h1 {
-	margin: auto 0 2rem;
-	font-size: 1.5rem;
-}
+
 time {
 	font-size: .8rem;
 	color: #666;
@@ -38,6 +35,39 @@ a:active {
 	text-decoration: underline;
 }
 
+/*
+Header contents
+*/
+.head_nav {
+	margin: auto 0 2rem;
+	padding: 0;
+	display: flex;
+	list-style: none;
+	font-size: .8rem;
+}
+.head_nav li:first-child {
+	margin-right: auto;
+}
+.head_nav li a {
+	padding-right: 15px;
+	padding-left: 15px;
+	border-right: 1px solid #999;
+}
+.head_nav li:first-child a {
+	padding-left: 0;
+}
+.head_nav li:first-child a,
+.head_nav li:last-child a{
+	border: none;
+}
+h1 {
+	font-size: 1.5rem;
+}
+.head_nav img {
+	margin-right: 3px;
+	width: 16px;
+	vertical-align: middle;
+}
 /*
 Article contents
 */
