@@ -1,6 +1,13 @@
 # 自習時間を取ってつくるもの
 
+
+## 参考リンク
+
 [https://faketurn.github.io](https://faketurn.github.io)
+
+[HTML4.01 日本語訳](http://www.asahi-net.or.jp/~sd5a-ucd/rec-html401j/cover.html)
+
+[HTML5 日本語訳](https://momdo.github.io/html5/Overview.html)
 
 ## TODO
 
