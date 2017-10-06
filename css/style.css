@@ -44,14 +44,16 @@ Header contents
 	display: flex;
 	list-style: none;
 	font-size: .8rem;
+	color: #666;
 }
 .head_nav li:first-child {
 	margin-right: auto;
+	color: #000;
 }
 .head_nav li a {
 	padding-right: 15px;
 	padding-left: 15px;
-	border-right: 1px solid #999;
+	border-right: 1px solid #ccc;
 }
 .head_nav li:first-child a {
 	padding-left: 0;
