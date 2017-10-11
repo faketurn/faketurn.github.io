@@ -29,6 +29,8 @@
 
 参考：[PHPからデータベースを操作する](https://team-lab.github.io/skillup/1/9.html)
 
+参考：[PHP::fetch_object](http://php.net/manual/ja/mysqli-result.fetch-object.php)
+
 ```php
 // データベースに接続する
 $servername = (localhost);
@@ -61,6 +63,26 @@ $stmt->bind_param('sss', value1, value2, value3);
 //実行
 $stmt->execute();
 ```
+
+
+```php
+$query = "select * from enquete where 1";
+// テーブルから日付の降順でデータを取得
+$result = $db->query($query);
+if ($result) {
+//   1行ずつ取り出し
+  while ($row = $result->fetch_object()) {
+    // エスケープして表示
+    $nickname = htmlspecialchars($row->nickname);
+    $opinion = htmlspecialchars($row->opinion);
+    $email = htmlspecialchars($row->email);
+    print("$nickname : $opinion ($email)<br>");
+  }
+  $result->close();
+}
+
+```
+
 
 
 ```php
