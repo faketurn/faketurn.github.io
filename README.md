@@ -25,12 +25,14 @@
 
 cloud9上でPHPからMySqlに接続する方法
 
+参考：[MySqlへの接続方法](https://community.c9.io/t/setting-up-mysql/1718/16)
+
 ```php
 // データベースに接続
-$servername = ('127.0.0.1');
-$username = ('faketurn');
+$servername = (localhost);
+$username = ('username');
 $password = "";
-$database = "phpkiso";
+$database = "databasename";
 $dbport = 3306;
 
 // Create connection
@@ -40,5 +42,27 @@ $db = new mysqli($servername, $username, $password, $database, $dbport);
 if ($db->connect_error) {
     die("Connection failed: " . $db->connect_error);
 } 
-// echo "Connected successfully (".$db->host_info.")";
+// 接続成功時の確認メッセージ。不要ならコメント化
+echo "Connected successfully (".$db->host_info.")";
+```
+
+
+参考：[PHPからデータベースを操作する](https://team-lab.github.io/skillup/1/9.html)
+
+```php
+// データベースにSQLを実行させる
+//プリペアドステートメントを作成　ユーザ入力を使用する箇所は?にしておく
+$sql = "insert into tablename(columnname1, columnname2, columnname3) values (?, ?, ?)";
+$stmt = $db->prepare($sql);
+
+//?の位置に値を割り当てる sはstringの意味。intならi、binaryならb。
+$stmt->bind_param('sss', value1, value2, value3);
+//実行
+$stmt->execute();
+```
+
+
+```php
+// データベースとの接続を終了する
+$db->close();
 ```
