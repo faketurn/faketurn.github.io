@@ -43,7 +43,9 @@ $db = new mysqli($servername, $username, $password, $database, $dbport);
 // Check connection
 if ($db->connect_error) {
     die("Connection failed: " . $db->connect_error);
-} 
+}
+// 文字化けしないように文字コードをutf8に指定する
+$db->set_charset("utf8");
 // 接続成功時の確認メッセージ。不要ならコメント化
 echo "Connected successfully (".$db->host_info.")";
 ```
