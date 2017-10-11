@@ -49,11 +49,11 @@ echo "Connected successfully (".$db->host_info.")";
 
 ```php
 // データベースにSQLを実行させる
-//プリペアドステートメントを作成　ユーザ入力を使用する箇所は?にしておく
+// プリペアドステートメントprepared statementを作成　valuesの各値は?にしておく
 $sql = "insert into tablename(columnname1, columnname2, columnname3) values (?, ?, ?)";
 $stmt = $db->prepare($sql);
 
-//?の位置に値を割り当てる sはstringの意味。intならi、binaryならb。
+// ?の位置に値を割り当てる sはstringの意味。intならi、binaryならb。
 $stmt->bind_param('sss', value1, value2, value3);
 //実行
 $stmt->execute();
