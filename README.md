@@ -64,26 +64,24 @@ $stmt->bind_param('sss', value1, value2, value3);
 $stmt->execute();
 ```
 
-
 ```php
-$query = "select * from enquete where 1";
+// テーブルからデータを取り出す
+$query = "select * from tablename where 1";
 // テーブルから日付の降順でデータを取得
 $result = $db->query($query);
 if ($result) {
 //   1行ずつ取り出し
   while ($row = $result->fetch_object()) {
     // エスケープして表示
-    $nickname = htmlspecialchars($row->nickname);
-    $opinion = htmlspecialchars($row->opinion);
-    $email = htmlspecialchars($row->email);
-    print("$nickname : $opinion ($email)<br>");
+    $value1 = htmlspecialchars($row->valuename1);
+    $value2 = htmlspecialchars($row->valuename2);
+    $value3 = htmlspecialchars($row->valuename3);
+    print("$value1 : $value2 ($value3)<br>");
   }
   $result->close();
 }
 
 ```
-
-
 
 ```php
 // データベースとの接続を終了する
