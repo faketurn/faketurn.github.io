@@ -23,6 +23,10 @@
 
 ### 2017.10.11 Wed
 
+## MySqlからプリペアードステートメントで取得するコードに悪戦苦闘
+
+<http://blog.pionet.co.jp/experience/archives/425>
+
 ## cloud9上でPHPからMySqlに接続する方法
 
 参考：[MySqlへの接続方法](https://community.c9.io/t/setting-up-mysql/1718/16)
