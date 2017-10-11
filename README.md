@@ -26,6 +26,7 @@
 ## cloud9上でPHPからMySqlに接続する方法
 
 参考：[MySqlへの接続方法](https://community.c9.io/t/setting-up-mysql/1718/16)
+
 参考：[PHPからデータベースを操作する](https://team-lab.github.io/skillup/1/9.html)
 
 ```php
