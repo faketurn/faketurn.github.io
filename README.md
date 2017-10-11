@@ -21,9 +21,9 @@
 - PHPでアプリ作る
 
 
-## 2017.10.11 Wed
+### 2017.10.11 Wed
 
-cloud9上でPHPからMySqlに接続する方法
+## cloud9上でPHPからMySqlに接続する方法
 
 参考：[MySqlへの接続方法](https://community.c9.io/t/setting-up-mysql/1718/16)
 
