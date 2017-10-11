@@ -25,7 +25,7 @@
 
 cloud9上でPHPからMySqlに接続する方法
 
-`
+```
 // データベースに接続
 $servername = ('127.0.0.1');
 $username = ('faketurn');
@@ -41,4 +41,4 @@ if ($db->connect_error) {
     die("Connection failed: " . $db->connect_error);
 } 
 // echo "Connected successfully (".$db->host_info.")";
-`
+```
