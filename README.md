@@ -23,9 +23,12 @@
 
 ### 2017.10.11 Wed
 
-## MySqlからプリペアードステートメントで取得するコードに悪戦苦闘
+## PHPからMySqlのプリペアードステートメントで取得するコードに悪戦苦闘
 
 <http://blog.pionet.co.jp/experience/archives/425>
+
+どうやらもう少しPHPの勉強が必要なようだ。
+
 
 ## cloud9上でPHPからMySqlに接続する方法
 
