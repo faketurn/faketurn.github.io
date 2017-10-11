@@ -30,7 +30,7 @@
 参考：[PHPからデータベースを操作する](https://team-lab.github.io/skillup/1/9.html)
 
 ```php
-// データベースに接続
+// データベースに接続する
 $servername = (localhost);
 $username = ('username');
 $password = "";
