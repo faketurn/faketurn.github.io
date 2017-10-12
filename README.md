@@ -3,6 +3,8 @@
 
 ## 参考リンク
 
+[https://github.com/faketurn/faketurn.github.io](https://github.com/faketurn/faketurn.github.io)
+
 [https://faketurn.github.io](https://faketurn.github.io)
 
 [HTML4.01 日本語訳](http://www.asahi-net.or.jp/~sd5a-ucd/rec-html401j/cover.html)
@@ -24,9 +26,17 @@
 
 ### 2017.10.12 Thu
 
+## はじめてのプログラミング学習
+
+python3で始めると良いように思う。次にJavaなどの低級言語を触ってみる。あとは自由。
+
 ## PDOを使ってPHPでMySqlを利用する
 
+[PHPでデータベースに接続するときのまとめ
+](https://qiita.com/mpyw/items/b00b72c5c95aac573b71)
 
+[【PHP超入門】クラス～例外処理～PDOの基礎
+](https://qiita.com/7968/items/6f089fec8dde676abb5b)
 
 
 ### 2017.10.11 Wed
