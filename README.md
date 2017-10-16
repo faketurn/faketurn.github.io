@@ -36,6 +36,11 @@ $dsn = "mysql:dbname=hoge, host=localhost, charset=utf8mb4";
 ```
 セミコロンで分割するところを、カンマで区切っていた。……そりゃ動かないわ。
 
+## ■PHPの連想配列の添え字の引用符の必要性
+
+> 連想配列の添字の前後は常に引用符で括る必要があります。 例えば、$foo[bar] ではなく $foo['bar'] を使用してください。<br> - 参照リンク：[PHP: 配列](http://php.net/manual/ja/language.types.array.php)
+
+はっきり書いてくれているので助かる。とにかく引用符はきちんとつけて書くことにしよう。
 
 
 
