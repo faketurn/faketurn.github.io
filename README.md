@@ -26,3 +26,4 @@
 
 - DB触る
 - framework
+- cloud9のubuntuでpython3の実行環境作る
